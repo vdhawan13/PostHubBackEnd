@@ -17,7 +17,7 @@ app.use(
 const port = process.env.PORT || 5000;
 
 mongoose
-  .connect(`mongodb+srv://naveenkumar709n:Naveen%2398142@cluster0.8qamxd3.mongodb.net/`, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(`mongodb+srv://vaibhavdhawan181:mongodb123@cluster0.djyjwme.mongodb.net/`, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('DB Connected');
     app.listen(port, () => {
